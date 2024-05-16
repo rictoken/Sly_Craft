@@ -3312,7 +3312,7 @@
 			document.querySelectorAll('#assistModal .assist-transport-row').forEach(e => e.remove());
             document.querySelectorAll('#assistModal .assist-craft-row').forEach(e => e.remove());
 			for (let fleet of userFleets) addAssistInput(fleet);
-            for (let i=1; i < 5; i++) addCraftingInput(i);
+            for (let i=1; i < 11; i++) addCraftingInput(i);
 			targetElem.style.display = 'block';
 		} else {
 			targetElem.style.display = 'none';
@@ -4866,7 +4866,7 @@
 			setTimeout(() => { startFleet(i);	}, 500 * (i + 1));
 		}
 
-        for (let i=1; i < 5; i++) {
+        for (let i=1; i < 11; i++) {
             let craftSavedData = await GM.getValue('craft' + i, '{}');
             let craftParsedData = JSON.parse(craftSavedData);
             if (craftParsedData.item && craftParsedData.coordinates) startCraft(craftParsedData);
