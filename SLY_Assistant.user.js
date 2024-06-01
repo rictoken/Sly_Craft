@@ -19,10 +19,10 @@
 	'use strict';
 
 	//Used for reading solana data
-	let customReadRPCs = [https://rpc.ironforge.network/mainnet?apiKey=01HRBY18SZS61AS2VP6CD7NXFQ];
+	let customReadRPCs = [https://rpc.ironforge.network/mainnet?apiKey=01HRBY18SZS61AS2VP6CD7NXFQ,];
 
 	//Used for pushing transactions to solana chain
-	let customWriteRPCs = [https://rpc.ironforge.network/mainnet?apiKey=01HRBY18SZS61AS2VP6CD7NXFQ];
+	let customWriteRPCs = [https://rpc.ironforge.network/mainnet?apiKey=01HRBY18SZS61AS2VP6CD7NXFQ,];
 
     let saRPCs = [
         'https://twilight-autumn-diagram.solana-mainnet.quiknode.pro/4fc53d638efd1cc0f80764bc457944bb325d1ff1', //Quicknode
