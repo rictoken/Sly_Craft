@@ -19,7 +19,7 @@
 	'use strict';
 
 	//Used for reading solana data
-	let customReadRPCs = [https://rpc.ironforge.network/mainnet?apiKey=01HRBY18SZS61AS2VP6CD7NXFQ ,];
+	let customReadRPCs = [];
 
 	//Used for pushing transactions to solana chain
 	let customWriteRPCs = [https://rpc.ironforge.network/mainnet?apiKey=01HRBY18SZS61AS2VP6CD7NXFQ ,];
