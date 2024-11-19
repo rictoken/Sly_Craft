@@ -25,12 +25,7 @@
     let customWriteRPCs = [];
 
     let saRPCs = [
-        'https://rpc.ironforge.network/mainnet?apiKey=01HZFVRZ4A5WVX2NDA4PCPHJ7N',
-	//'https://rpc.ironforge.network/mainnet?apiKey=01HRBY18SZS61AS2VP6CD7NXFQ',
-	//'https://twilight-autumn-diagram.solana-mainnet.quiknode.pro/4fc53d638efd1cc0f80764bc457944bb325d1ff1', //Quicknode
-        //'https://rpc.hellomoon.io/78eaf77d-15f4-424a-afb7-4205bb99a969', //Hello Moon
-        //'https://staratl-mainc06-2415.mainnet.rpcpool.com', //Triton
-        //'https://mainnet.helius-rpc.com/?api-key=735486d8-ae86-4d26-829c-e34a2210d119', //Helius
+        'https://rpc.ironforge.network/mainnet?apiKey=01HRBY18SZS61AS2VP6CD7NXFQ',
     ];
     let readRPCs = customReadRPCs.concat(saRPCs);
     let writeRPCs = customWriteRPCs.concat(saRPCs);
